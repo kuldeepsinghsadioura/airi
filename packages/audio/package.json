@@ -40,8 +40,8 @@
     "package.json"
   ],
   "scripts": {
-    "dev": "pnpm run build",
-    "build": "tsdown",
+    "dev": "node init && pnpm run build",
+    "build": "node init && tsdown",
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {

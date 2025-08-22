@@ -15,7 +15,7 @@
     "directory": "services/discord-bot"
   },
   "scripts": {
-    "start": "dotenvx run -f .env -f .env.local --overload --ignore=MISSING_ENV_FILE -- tsx src/index.ts",
+    "start": "node init && dotenvx run -f .env -f .env.local --overload --ignore=MISSING_ENV_FILE -- tsx src/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

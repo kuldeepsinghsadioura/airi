@@ -24,7 +24,7 @@
     "package.json"
   ],
   "scripts": {
-    "build": "pkgroll"
+    "build": "node init && pkgroll"
   },
   "dependencies": {
     "@tauri-apps/api": "^2.7.0"

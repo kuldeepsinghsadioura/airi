@@ -5,8 +5,8 @@
   "private": true,
   "description": "Prompt Engineering Playground for AI Characters",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "dev": "node init && vite",
+    "build": "node init && vue-tsc && vite build",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit"
   },

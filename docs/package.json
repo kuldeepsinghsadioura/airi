@@ -4,9 +4,9 @@
   "version": "0.7.2-beta.1",
   "private": true,
   "scripts": {
-    "build": "vitepress build",
-    "build:base": "BASE_URL=/docs/ vitepress build",
-    "dev": "vitepress dev",
+    "build": "node init && vitepress build",
+    "build:base": "node init && BASE_URL=/docs/ vitepress build",
+    "dev": "node init && vitepress dev",
     "preview": "vitepress preview",
     "typecheck": "vue-tsc --noEmit",
     "to-avif": "tsx scripts/avif.ts",

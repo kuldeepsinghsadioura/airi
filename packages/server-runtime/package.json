@@ -30,8 +30,8 @@
     "package.json"
   ],
   "scripts": {
-    "dev": "listhen -w --ws --port 6121 ./src/index.ts",
-    "start": "listhen --ws --port 6121 ./src/index.ts",
+    "dev": "node init && listhen -w --ws --port 6121 ./src/index.ts",
+    "start": "node init && listhen --ws --port 6121 ./src/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
